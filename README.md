@@ -21,3 +21,8 @@ cd ndosiautomationdevbasics
 1. Import the project
     * Open PyCharm 
     * Select File -> Open, and choose the clone project folder
+
+## Documents 
+
+[Git Commands](GIT_COMMANDS.md)
+[Diagrams](DIAGRAMS.md)
