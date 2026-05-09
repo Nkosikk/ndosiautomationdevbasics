@@ -14,3 +14,26 @@ print(numbers)
 
 numbers.pop(0)
 print(numbers)
+
+
+letters = ['a', 'b', 'c']
+print(letters)
+print()
+numbers_two_example = numbers + letters
+print(numbers_two_example)
+print()
+print(numbers)
+
+print()
+
+letters.remove('a')
+print(letters)
+print()
+
+letters.pop(1)
+print(letters)
+print()
+
+numbers_two_example = numbers + letters
+print(numbers_two_example)
+print()
