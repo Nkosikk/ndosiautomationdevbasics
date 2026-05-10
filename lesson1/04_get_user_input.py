@@ -9,5 +9,6 @@ print(type(age))
 print()
 
 age = int(age)
+
 print(age)
 print(type(age))

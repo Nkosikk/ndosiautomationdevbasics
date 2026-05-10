@@ -5,7 +5,3 @@ print()
 
 # count of number of items in list
 print(len(numbers))
-
-
-numbers.remove(10)
-print(len(numbers))
