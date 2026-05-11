@@ -19,3 +19,6 @@ print(numbers)
 # Remove using the index
 numbers.remove(20)
 print(numbers)
+
+numbers.remove(30)
+print(numbers)
