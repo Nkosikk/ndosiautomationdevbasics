@@ -22,8 +22,8 @@ numbers = [8, 9, 10]
 # print(numbers)
 # len(numbers)
 # Add number on the specific position
-# numbers.insert(1, 12)
-# print(numbers)
+numbers.insert(1, 12)
+print(numbers)
 
 # Give the length of the list
 # length = len(numbers)
