@@ -26,3 +26,8 @@
 
 ![Python List Structure](diagrams/python/01-python-list-structure.png)
 
+### Dict
+
+![Python Dict](diagrams/python/02-dict.png)
+
+
