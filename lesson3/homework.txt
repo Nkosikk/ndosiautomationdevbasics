@@ -1,0 +1,10 @@
+Push your completed Lesson 1 homework to your own Git repo on the main branch.
+Create a new branch called lesson3-homework.
+
+Update your lesson 1 homework to capture information of 2 users. This information includes their name, age and height (in cm).
+Make use of list and dictionaries.
+Validation of user input is optional.
+Display each user's information in a sentence format (make use of loops).
+Then calculate and display the total combined height of both users (make use of a function).
+
+Commit and push your code, and create a Pull Request (PR) into main.
