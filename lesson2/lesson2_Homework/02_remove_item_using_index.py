@@ -1,6 +1,4 @@
 numbers = [50, 60, 70, 80 , 90]
-print(numbers)
-numbers = [50, 60, 70, 80, 90]
 
 print(numbers)
 print()
