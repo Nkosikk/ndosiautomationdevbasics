@@ -7,12 +7,12 @@ user_data = {
 
 
 print(user_data)
-print(type(user_data))  # dict
+print(type(user_data))  # lesson3_gift_practice
 
 
 print()
 
-print('Removing name from dict')
-del user_data['name']  # removing name from dict
+print('Removing name from lesson3_gift_practice')
+del user_data['name']  # removing name from lesson3_gift_practice
 print(user_data)
 

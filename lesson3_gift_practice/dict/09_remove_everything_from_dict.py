@@ -6,9 +6,9 @@ user_data = { #Dict store multiple values on one variable
 #key value pairs
 
 print(user_data)
-print(type(user_data)) #dict
+print(type(user_data)) #lesson3_gift_practice
 
 print()
 
-del user_data['NAME']
-print(user_data) #KeyError: 'NAME'
+user_data.clear()
+print(f'dict data is removed, {user_data}')

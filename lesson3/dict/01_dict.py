@@ -5,4 +5,4 @@ user_data = {
 
 
 print(user_data)
-print(type(user_data))  # dict
+print(type(user_data))  # lesson3_gift_practice

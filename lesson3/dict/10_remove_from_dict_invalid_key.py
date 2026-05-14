@@ -7,13 +7,13 @@ user_data = {
 
 
 print(user_data)
-print(type(user_data))  # dict
+print(type(user_data))  # lesson3_gift_practice
 
 
 print()
 
-print('Removing gender from dict')
-del user_data['gender']  # removing gender from dict
+print('Removing gender from lesson3_gift_practice')
+del user_data['gender']  # removing gender from lesson3_gift_practice
 # Error: KeyError
 print(user_data)
 

@@ -7,12 +7,12 @@ user_data = {
 
 
 print(user_data)
-print(type(user_data))  # dict
+print(type(user_data))  # lesson3_gift_practice
 
 
 print()
 
-print('Removing everything from dict')
-user_data.clear()  # Remove everything from dict
+print('Removing everything from lesson3_gift_practice')
+user_data.clear()  # Remove everything from lesson3_gift_practice
 print(user_data)
 
