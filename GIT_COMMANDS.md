@@ -77,3 +77,13 @@ git add FILE_NAME
 ```bash
 git add .
 ```
+
+## 15. View all pulled remote branches:
+```bash
+git branch -r
+```
+
+## 16. Pull from main branch 
+```bash
+git merge origin main
+```
