@@ -6,6 +6,6 @@ print()
 
  #remove item using index
 
-numbers.pop(3)
+numbers.pop(1)
 print(numbers)
 print()
