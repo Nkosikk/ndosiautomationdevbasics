@@ -94,3 +94,22 @@ print(f"This is the details for the first user: {newDict}\n")
 print(f"This is the details for the second user: {newDict1}\n")
 
 print(f"The total combined height is : {total_height: .2f}\n")
+
+"Looping"
+
+'looping for the first user'
+for index, info in enumerate(newDict["user"]):
+    if index == 0:
+        print(f"The users name's is :{info}\n")
+    elif index == 1:
+        print(f"The user's age is :{info}\n")
+    elif index == 2:
+        print(f"The user's height is :{info}\n")
+
+for index, info in enumerate(newDict1["user1"]):
+    if index == 0:
+        print(f"The users name's is :{info}\n")
+    elif index == 1:
+        print(f"The user's age is :{info}\n")
+    elif index == 2:
+        print(f"The user's height is :{info}\n")
