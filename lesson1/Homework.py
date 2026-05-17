@@ -21,4 +21,4 @@ print()
 # Calculate and display total combined height
 total_height = height1 + height2
 
-print(f"The total combined height of both users is {total_height} cm.")
+print(f"The total combined height of both users is {total_height: .2f} cm.")

@@ -1,1 +1,13 @@
 .idea/
+# Ignore Python virtual environments
+.venv/
+venv/
+env/
+
+# Ignore Python cache files
+__pycache__/
+*.pyc
+
+# Ignore System files
+.DS_Store
+Thumbs.db
