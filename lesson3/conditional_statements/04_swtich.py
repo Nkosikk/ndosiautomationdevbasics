@@ -1,4 +1,6 @@
-status_code = 200
+#status_code = 200
+
+status_code = int(input('Enter the status code : '))
 
 match status_code:
     case 200:
