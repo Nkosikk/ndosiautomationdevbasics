@@ -1,5 +1,5 @@
 # string, int, float, boolean
-my_string = "Mary"
+my_string = "Langavi"
 
 print(my_string)
 
