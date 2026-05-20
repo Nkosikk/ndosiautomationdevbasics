@@ -1,24 +1,23 @@
-# Capture information for User 1
-name1 = input("Enter first user's name: ")
-age1 = int(input("Enter first user's age: "))
-height1 = float(input("Enter first user's height in cm: "))
+#Capture information of 2 users. This information includes their name, age and height (in cm).
+#Display each users information in a sentence format.
+#Then calculate and display the total combined height of both users.
+
+print('====User 1 details======')
+user1_name = input('Enter user1 name: ')
+user1_age = int(input('Enter your age: '))
+user1_height = float(input('Enter your height(cm): '))
+print(f'Your name is {user1_name} and you are {user1_age} old. Your height is {user1_height} cm' )
 
 print()
 
-# Capture information for User 2
-name2 = input("Enter second user's name: ")
-age2 = int(input("Enter second user's age: "))
-height2 = float(input("Enter second user's height in cm: "))
+print('====User 2 details======')
+user2_name = input('Enter user2 name: ')
+user2_age = int(input('Enter your age: '))
+user2_height = float(input('Enter your height(cm): '))
+print(f'Your name is {user2_name} and you are {user2_age} old. Your height is {user2_height} cm' )
 
+
+total_height = user1_height + user2_height
 print()
-
-# Display user information
-print(f"{name1} is {age1} years old and is {height1} cm tall.")
-print(f"{name2} is {age2} years old and is {height2} cm tall.")
-
-print()
-
-# Calculate and display total combined height
-total_height = height1 + height2
-
-print(f"The total combined height of both users is {total_height} cm.")
+print('====Total combined Height======')
+print(f'The total combined height of both users is {total_height} cm')
