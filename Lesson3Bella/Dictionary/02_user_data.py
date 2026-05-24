@@ -1,5 +1,7 @@
 user_data = {
-    'key': 'value'
+    'name': 'Mary',
+    'age': 32,
+    'height': '21.9'
 }
 #key-value pairs
 
