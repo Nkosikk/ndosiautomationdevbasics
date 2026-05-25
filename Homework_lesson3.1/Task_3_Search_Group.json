@@ -1,0 +1,35 @@
+def search_group(filename="groups.json"):
+    try:
+        with open(filename, "r") as file:
+            data = json.load(file)
+
+        # Ask user for group name
+        group_name = input("Enter group name to search: ")
+
+        found = False
+
+        # Search through the data
+        for group in data:
+            # Change keys below if API uses different names
+            if group.get("name", "").lower() == group_name.lower():
+                print("\nGroup found successfully!")
+                print(f"Group ID: {group.get('id')}")
+                found = True
+                break
+
+        if not found:
+            print("Error: Group not found.")
+
+    except FileNotFoundError:
+        print("Error: JSON file not found.")
+
+    except Exception as e:
+        print(f"An error occurred: {e}")
+
+
+# Main program
+api_data = get_api_data()
+
+if api_data:
+    save_data_to_file(api_data)
+    search_group()
