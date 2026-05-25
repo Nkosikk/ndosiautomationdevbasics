@@ -13,8 +13,8 @@ height2 = float(input("Enter second user's height in cm: "))
 print()
 
 # Display user information
-print(f"{name1} is {age1} years old and is {height1} cm tall.")
-print(f"{name2} is {age2} years old and is {height2} cm tall.")
+print(f"{name1} is {age1} years old and is {height1} cm .")
+print(f"{name2} is {age2} years old and is {height2} cm .")
 
 print()
 
