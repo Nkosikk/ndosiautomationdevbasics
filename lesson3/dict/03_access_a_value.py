@@ -14,4 +14,4 @@ print()
 print('Get user name')
 print(user_data['name'])
 
-print(user_data['nmae'])  # KeyError
+# print(user_data['nmae'])  # KeyError
