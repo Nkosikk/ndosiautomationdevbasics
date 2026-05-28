@@ -1,41 +1,26 @@
-# Capture information for User 1
-user1_data= {
-    'name': 'Mary',
-    'age': 32,
-    'height': 21
-}
-# key-value pairs
+# Capture information for user1
 
+get_user1_name = input('Enter user1 name: ') #Enter and store user1 name
+get_user1_age = input('Enter user1 age: ') #Enter and store user1 age
+user1_age = int(get_user1_age) #Convert user1 age string to int
+get_user1_height = input('Enter user1 height: ') #Enter and store user1 age
+user1_height = float(get_user1_height) #Enter and store user1 height
+user1_height_in_cm = user1_height * 2.54
 
-print(user1_data)
-print(type(user1_data))
-
+print(f'user1 name is {get_user1_name}, {user1_age} years old, and {user1_height_in_cm} cm tall') #print user1 details
 print()
 
-# Capture information for User 2
-user2_data = {
-    'name': 'Jane',
-    'age': 30,
-    'height': 20
-}
-# key-value pairs
+# Capture information for user2
 
-
-print(user2_data)
-print(type(user2_data))
-
-print()
-
-# Display user information
-
-print(f'You are {user1["name"]} and {user1["age"]} years old and is {user1["height"]}')
-print(f'You are {user2["name"]} and {user2["age"]} years old and is {user2["height"]}')
-
-print()
+get_user2_name = input('Enter user2 name: ') #Enter and store user2 name
+get_user2_age = input('Enter user2 age: ') #Enter and store user2 age
+user2_age = int(get_user2_age) #Convert user2 age string to int
+get_user2_height = input('Enter user2 height: ') #Enter and store user2 age
+user2_height = float(get_user2_height) #Enter and store user2 height
+user2_height_in_cm = user2_height * 2.46
+Print()
 
 # Calculate and display total combined height
 
-def add(num1: int, num2: int):
-    return num1 + num2
-sum_of_numbers = add(num1: 21, num2:20)
-print(sum_of_numbers)
+print(f'user2 name is {get_user2_name}, {user2_age} years old, and {user2_height_in_cm} cm tall') #print user2 details
+print(f'Total combined height for both users, {user1_height} inches tall + {user2_height} inches tall is {user1_height_in_cm + user2_height_in_cm} cm.')
