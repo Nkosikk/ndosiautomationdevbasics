@@ -18,6 +18,7 @@ public class loginToNdosiWebsite {
     public void LoginToMobileWebsiteTest() {
 
         driver = new ChromeDriver();
+
         driver.manage().window().maximize();
 
         driver.get("https://ndosisimplifiedautomation.vercel.app/");
