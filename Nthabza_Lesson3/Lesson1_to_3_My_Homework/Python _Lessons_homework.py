@@ -4,27 +4,30 @@
 #Display each user's information in a sentence format (make use of loops).
 #Then calculate and display the total combined height of both users (make use of a function).
 
-#Step 1: Create a list of users
-users = [
-    {
-        "name": "Peter",
-        "age": 19,
-        "height": 156
-    },
-    {
-        "name": "Maggy",
-        "age": 20,
-        "height": 171
-    }
-]
+users = []
 
-#Step 2: Use a loop to display the information
+for i in range(2):
+    print(f"\nEnter details for User {i + 1}")
+
+    name = input("Enter name: ")
+    age = int(input("Enter age: "))
+    height = float(input("Enter height (cm): "))
+
+    user = {
+        "name": name,
+        "age": age,
+        "height": height
+    }
+
+    users.append(user)
+
+
 for user in users:
     print(
         f"{user['name']} is {user['age']} years old and is {user['height']} cm tall."
     )
 
-#Step 3: Create a function
+
 def calculate_total_height(users):
     total_height = 0
 
@@ -34,6 +37,6 @@ def calculate_total_height(users):
     return total_height
 
 
-combined_height = calculate_total_height(users)
+total_height = calculate_total_height(users)
 
-print(f"Total combined height: {combined_height} cm")
+print(f"\nTotal combined height: {total_height} cm")
